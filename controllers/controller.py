@@ -2,7 +2,6 @@ from app import app
 from flask import render_template
 from modules.game import *
 from modules.player import *
-from modules.Rock_Paper_Scissors import *
 
 @app.route('/rock_paper_scissors')
 def welcome():

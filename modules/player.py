@@ -1,6 +1,8 @@
 class Player:
-    def __init__(self, name, choice):
+    def __init__(self, name, choices):
         self.name = name
-        self.choice = choice 
+        self.choices = choices
+
+   
 
         # Player is myself and the computer

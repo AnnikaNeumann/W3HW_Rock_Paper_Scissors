@@ -4,6 +4,7 @@ class Game:
         self.choice_2 = choice_2
 
 # add choices of "rock", "paper" and "scissors"
+    choice =("rock", "paper", "scissor")
 
 
     def let_the_games_begin(self, choice_1, choice_2):
@@ -16,5 +17,6 @@ class Game:
         if choice_1 == "scissors" + choice_2 == "paper":
             return "Scissors win"
 
+      
 
 
