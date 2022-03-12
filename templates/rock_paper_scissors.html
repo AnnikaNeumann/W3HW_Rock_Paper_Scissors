@@ -1,7 +1,13 @@
 {% extends "base.html" %} {% block content %}
 <h1>Play again and see if it's a win or a draw</h1>
 
-<input type="submit" value="Add your choice">
-</form>
+
+<form action='/rock_paper_scissors' method="get">
+    <label for="">Result of your game</label>
+
+    <p></p>
+
+   
 
 {% endblock %}
+

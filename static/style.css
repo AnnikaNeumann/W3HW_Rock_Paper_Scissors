@@ -1,4 +1,13 @@
 body{
     background-image: url(./images/rock-paper-scissor.jpeg);
     height: fit-content;
+    opacity: 80%;
+};
+
+head > ul > li{
+    text-align: center;
+}
+
+.Rock_Paper_Scissors{
+    font-size: 18;
 }

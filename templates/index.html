@@ -1,12 +1,23 @@
 {% extends "base.html" %} {% block content %}
+<html>
     <h1>Rock Paper Scissors</h1>
-   <body>
+   <!-- <body>
     <div class="Rock_Paper_Scissors>
         <p>Let's start playing a game</p>
-        </div>
+        </div> -->
    </body>
+   <form action='/rock_paper_scissors' method="post">
+   <label for="">Your Choice</label>
 
-   <html></html>
+   <select name="options" id="option">
+    <option value="none">Click here</option>
+    <option [ngvalue]="true">Rock</option>
+    <option [ngvalue]="true">Paper</option>
+    <option [ngvalue]="true">Scissors</option>
+</select>
+
+<input type="submit" value="Submit">
+   </html>
    
  
     
