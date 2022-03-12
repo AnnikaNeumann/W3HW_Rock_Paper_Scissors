@@ -1,21 +1,24 @@
+<!-- inherits from index.html -->
 <html>
     <head>
         <title>{{ title }} - Play Rock Paper Scissors </title>
         <link rel="stylesheet" href="/static/style.css">
+        <img src="/.static/images/rock-paper-scissor.jpeg" alt=""> 
     </head>
-    <body>
-        <header>
-        <img src="/.static/images/rock-paper-scissor.jpeg" alt="">        
+    <body>       
         <ul>
             <li><a href="/Rock_Paper_Scissors">Home</a></li>
         </ul>
-    </header>
-    <main>
-        <hr> {% block content %} {% endblock %}
-    </main>
-<body>
-           
-           
+        <hr> 
+        {% block content %} 
 
+    
+        {% endblock %}
+   
+    </body>
+</html>
+           
+           
+<!-- correct setup of base.html -->
        
  
