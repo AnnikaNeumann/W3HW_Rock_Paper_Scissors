@@ -1,11 +1,11 @@
 body{
-    background-color: green;
+    background-color: purple;
     margin: auto;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 header{
-    background-color: goldenrod;
+    background-color: grey;
     border: 1px;
     border-color: black;
     border-style: dashed;
@@ -49,7 +49,7 @@ h2{
 }
 
 footer{
-    background-color: goldenrod;
+    background-color: grey;
     border-color: black;
     border-style: dashed;
     position: fixed;
