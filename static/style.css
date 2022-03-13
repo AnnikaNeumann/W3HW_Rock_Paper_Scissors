@@ -10,6 +10,7 @@ header{
     border-color: black;
     border-style: dashed;
     text-align: center;
+    
 }
 ul > li{
     list-style-type: none;
@@ -108,4 +109,21 @@ img{
     margin-left: 1cm;
     width: 150px;
     height: 25px;
+}
+
+.giphy-embed{
+   display: block;
+   margin-left: 0%;
+   margin-right: 0%;
+    
+}
+
+.saw{
+    display: block;
+    margin-left: 10cm;
+    margin-bottom: 2cm;
+    width: 15cm;
+    height: 10cm;
+
+
 }
