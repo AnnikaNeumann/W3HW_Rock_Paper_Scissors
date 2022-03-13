@@ -18,8 +18,8 @@ def start_of_game(player_one,player_two):
     player1 = player_one
     player2 = player_two
     # the below variable game is a function from the class game, which is then used to run the actual game, passing in the two player choices
-    game = Game(player1,player2)
-    result = game.let_the_games_begin()
+    # game = Game(player1,player2)
+    result = Game.let_the_games_begin(player1,player2)
     
     # the variables passed into the render_template becomes available on the webpage refered to in the single quotes, 
     return render_template('index.html',player1Choice = player1, player2Choice = player2, result = result)

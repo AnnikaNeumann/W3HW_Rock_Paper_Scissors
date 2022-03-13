@@ -1,34 +1,26 @@
 class Game:
-    def __init__(self, p1, p2):
-        self.p1_choice =  p1
-        self.p2_choice = p2
-
-# add choices of "rock", "paper" and "scissors"
-
-
-    def let_the_games_begin(self):
-        if self.p1_choice == self.p2_choice:
+    
+    def let_the_games_begin(p1_choice,p2_choice):
+        if p1_choice == p2_choice:
             return "It's a draw"
 
-        elif self.p1_choice == "paper" and self.p2_choice == "rock":
-            return "Paper wins"
+        elif p1_choice == "paper" and p2_choice == "rock":
+            return "Player 1 wins"
 
-        elif self.p1_choice == "paper" and self.p2_choice == "scissors":
-            return "Scissors win"
+        elif p1_choice == "paper" and p2_choice == "scissors":
+            return "Player 2 win"
 
-        elif self.p1_choice == "scissors" and self.p2_choice == "rock":
-            return "Rock wins"
-
-        elif self.p1_choice == "rock" and self.p2_choice == "rock":
-            return "It's a draw"
-
-        if self.p1_choice == "scissors" and self.p2_choice == "scissors":
-            return "It's a draw"
-
-        if self.p1_choice == self.p2_choice:
-            return "None"
-
-
-
+        elif p1_choice == "rock" and p2_choice == "scissors":
+            return "Player 1 win"
         
+        elif p1_choice == "rock" and p2_choice == "paper":
+            return "Player 2 win"
+                
+        elif p1_choice == "scissors" and p2_choice == "rock":
+            return "Player 2 wins"
+        
+        elif p1_choice == "scissors" and p2_choice == "paper":
+            return "Player 1 wins"
+       
+     
 
