@@ -6,17 +6,3 @@ class Player:
 
 
 
-
-
-
-# computer's turn EXTENSION
-# import random 
-
-# choice_list =["rock", "paper", "scissor"]
-# choice = random.choice(choice_list)
-# print(choice)
-
-
-
-
-
