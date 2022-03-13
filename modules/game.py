@@ -1,5 +1,8 @@
 class Game:
     
+    # when creating a class, you do not always need an init function if you are not storing variables for later, 
+    # you are able to just have helper functions do the logic you need, making sure to pass all the data/variables you need into the function
+
     def let_the_games_begin(p1_choice,p2_choice):
         if p1_choice == p2_choice:
             return "It's a draw"
