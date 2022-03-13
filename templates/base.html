@@ -2,19 +2,34 @@
     <head>
         <title>{{ title }} - Play Rock Paper Scissors </title>
         <link rel="stylesheet" href="/static/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Supermercado+One" rel="stylesheet">
+        
     </head>
+
     <body>
         <header>
-        <img src="/.static/images/rock-paper-scissor.jpeg" alt="">        
+             
         <ul>
-            <li><a href="/rock_scissors">Home</a></li>
+            <li> <a href="/rules.html">Home</a></li>
+            <li><a href="/index.html">Play again</a></li> 
+            <input type="text" class="search" placeholder="Search ..."> 
+            <a href="#" class="gobutton">Go</a> 
         </ul>
+    
     </header>
     <main>
-        <hr> {% block content %} {% endblock %}
-    </main>
-<body>
-           
+         {% block content %} {% endblock %}           
+    
+         <img src="/static/images/rps.jpeg" alt="Cartoon of the game" class="Center">  
+    </main> 
+
+
+    </body>
+    <footer>
+        <p>© Special thanks to Annika</p>
+        </footer> 
+</html>
+      
            
 <!-- correct -->
        

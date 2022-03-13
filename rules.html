@@ -1,0 +1,28 @@
+<!-- main page must be outside of template structure -->
+
+{% extends "base.html" %} {% block content %}
+<!-- The content block is a space holder for things on another jinja file. It tells the base file where you want to place content from another file. -->
+<!-- The extend block code is what tells jinja what goes in between the content block tags -->
+
+</head>
+    <h2>How to play</h2>
+</head>
+
+<div class="rules">
+    <p>The rules of this game are pretty simple. There are two players and each of them has a choice of either rock, paper or *surprise* scissors. <br>
+        According to the match between the player's choices, the winner is decided as follows - Look down.</p><br><br><br><br>
+
+    <ul>
+        <li>Rock destroys the scissors to win the game.</li><br>
+        <li>Paper wraps the rock to win the game.</li><br>
+        <li>Scissors cuts the paper in pieces to win the game.</li><br>
+        <li>If both players make the same choice, the game result ends in a draw.</li>
+    </ul>
+</div>
+
+
+
+
+
+
+{% endblock %}

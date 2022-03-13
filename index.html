@@ -1,0 +1,30 @@
+<!-- inherits from base.html
+ -->
+    {% extends "base.html" %} 
+{% block content %}
+
+    <link rel="stylesheet" href="/static/style.css">
+
+    <h1>Rock Paper Scissors</h1>
+
+    <div>
+        <h2>
+            {{player1web.name}}'s choice is {{ player1web.choice }} <br> {{player2web.name}}'s choice is {{ player2web.choice }} <br> Result {{ result }} 
+        </h2>
+    </div>
+
+
+
+   <!-- <select name="options" id="option">
+    <option value="none">Click here</option>
+    <option [ngvalue]="true">Rock</option>
+    <option [ngvalue]="true">Paper</option>
+    <option [ngvalue]="true">Scissors</option>
+</select>
+
+<input type="submit" value="Submit">
+
+    {% endblock %} -->
+        
+
+

@@ -5,19 +5,18 @@
 
     <link rel="stylesheet" href="/static/style.css">
 
-    <h1>Rock Paper Scissors</h1>
+    <div class=index_header>
+        <p>Rock Paper Scissors</p>
+    </div>
 
-    <div><h2><p>Choice of Player 1 {{ player1Choice }} <br> Choice of Player 2 {{ player2Choice }} <br> Result {{ result }} </p></h2></div>
+    <div id="game">
+        <p>
+            {{player1web.name}}'s choice is {{ player1web.choice }} <br> {{player2web.name}}'s choice is {{ player2web.choice }} <br> Result {{ result }} 
+        </p>
+    </div>
+
 
     {% endblock %}
         
 
 
-   <!-- <select name="options" id="option">
-    <option value="none">Click here</option>
-    <option [ngvalue]="true">Rock</option>
-    <option [ngvalue]="true">Paper</option>
-    <option [ngvalue]="true">Scissors</option>
-</select>
-
-<input type="submit" value="Submit"> -->
